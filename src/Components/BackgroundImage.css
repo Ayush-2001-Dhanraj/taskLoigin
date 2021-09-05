@@ -1,0 +1,25 @@
+.bgContainer {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 263px;
+  overflow: hidden !important;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bgImg {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+@media screen and (max-width: 430px) {
+  .bgContainer {
+    overflow: hidden !important;
+  }
+  .bgImg {
+    width: 200vw;
+    height: 50%;
+  }
+}
