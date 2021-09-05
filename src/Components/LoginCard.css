@@ -5,6 +5,7 @@
   overflow: scroll;
 }
 
+/* Styling for the Header section of the card */
 .head {
   height: 58px;
   width: 577px;
@@ -19,6 +20,8 @@
 .amazonLogo {
   width: 99px;
 }
+
+/* Styling for the main section of the card */
 
 .body {
   height: 629px;
@@ -54,6 +57,8 @@
   padding: 2% 0;
 }
 
+/* For accessiblity purposes */
+
 .inputs::-webkit-input-placeholder {
   /* Edge */
   color: #20b716;
@@ -72,11 +77,19 @@
 }
 
 .cautionSection {
-  font-family: myriad-pro, sans-serif;
+  /* Myriad pro bold was present with my creative cloud so I have used a replacement */
+  /* font-family: myriad-pro, sans-serif; --- This makes the test bold */
   font-style: normal;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin: 0;
+  padding: 1% 0;
+}
+
+.cautionSection p {
+  margin: 0;
+  color: #ee2d6e;
 }
 
 .cautionSection img {
@@ -94,6 +107,10 @@
   display: flex;
   justify-content: space-between;
   font: normal normal normal 14px/18px Josefin Sans;
+}
+
+.otherNav p {
+  color: #ee2d6e;
 }
 
 .fullBtn {
@@ -121,6 +138,8 @@
   width: 36px;
   display: inline-block;
 }
+
+/* Some quick changes for the mobile view */
 
 @media screen and (max-width: 430px) {
   .head,
